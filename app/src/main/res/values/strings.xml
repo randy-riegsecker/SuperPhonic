@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SuperPhonic</string>
+    <string name="sad_trombone_text">Sad Trombone</string>
+    <string name="law_and_order_text">Law And Order</string>
+    <string name="nelson_text">Nelson</string>
+    <string name="fart_text">Fart</string>
+    <string name="fired_text">You\'re Fired</string>
+    <string name="burp_text">Burp</string>
+    <string name="rimshot_text">Rimshot</string>
+    <string name="whistle_text">Whistle</string>
+    <string name="doorbell_text">Doorbell</string>
+    <string name="car_horn_text">Car Horn</string>
+</resources>

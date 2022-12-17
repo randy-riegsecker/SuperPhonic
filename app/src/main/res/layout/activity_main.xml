@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaaaaa"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sadTrombone"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#DED058"
+        android:fontFamily="sans-serif-medium"
+        android:shadowColor="#FFFFFF"
+        android:text="@string/sad_trombone_text"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/lawAndOrder"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/lawAndOrder"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#206296"
+        android:text="@string/law_and_order_text"
+        android:textColor="#E0E0E0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/sadTrombone"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/haha"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/nelson_text"
+        app:layout_constraintEnd_toStartOf="@+id/fart"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sadTrombone" />
+
+    <Button
+        android:id="@+id/fart"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#7B431A"
+        android:text="@string/fart_text"
+        android:textColor="#CFD8DC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/haha"
+        app:layout_constraintTop_toBottomOf="@+id/lawAndOrder" />
+
+    <Button
+        android:id="@+id/trumpFired"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#F8764D"
+        android:text="@string/fired_text"
+        app:layout_constraintEnd_toStartOf="@+id/burp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/haha" />
+
+    <Button
+        android:id="@+id/burp"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#E26E93"
+        android:text="@string/burp_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/trumpFired"
+        app:layout_constraintTop_toBottomOf="@+id/fart" />
+
+    <Button
+        android:id="@+id/rimshot"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#00554D4D"
+        android:text="@string/rimshot_text"
+        app:layout_constraintEnd_toStartOf="@+id/whistle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trumpFired" />
+
+    <Button
+        android:id="@+id/whistle"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#8BC34A"
+        android:text="@string/whistle_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/rimshot"
+        app:layout_constraintTop_toBottomOf="@+id/burp" />
+
+    <Button
+        android:id="@+id/doorbell"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#9B1329"
+        android:text="@string/doorbell_text"
+        android:textColor="#E0E0E0"
+        app:layout_constraintEnd_toStartOf="@+id/whistle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rimshot" />
+
+    <Button
+        android:id="@+id/carHorn"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CC626FB9"
+        android:text="@string/car_horn_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/doorbell"
+        app:layout_constraintTop_toBottomOf="@+id/whistle" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
