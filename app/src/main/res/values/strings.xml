@@ -11,5 +11,6 @@
     <string name="doorbell_text">Doorbell</string>
     <string name="car_horn_text">Car Horn</string>
     <string name="cow_moo_text">Mooing Cow</string>
-    <string name="foghorn_text">Foghorn</string>"
+    <string name="foghorn_text">Foghorn</string>
+    <string name="price_is_right_lose_text">Price Is Right Lose</string>"
 </resources>

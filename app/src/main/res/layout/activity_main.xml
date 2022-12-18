@@ -173,19 +173,19 @@
         android:text="@string/cow_moo_text"
         android:textColor="#E0E0E0"
         android:textSize="14sp"
-        app:layout_constraintEnd_toStartOf="@+id/foghorn"
+        app:layout_constraintEnd_toStartOf="@+id/priceIsRightLose"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/doorbell" />
 
     <Button
-        android:id="@+id/foghorn"
+        android:id="@+id/priceIsRightLose"
         android:layout_width="0dp"
         android:layout_height="80dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="#CC171719"
-        android:text="@string/foghorn_text"
+        android:text="@string/price_is_right_lose_text"
         android:textColor="#E0E0E0"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
