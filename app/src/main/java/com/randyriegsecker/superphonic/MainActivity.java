@@ -3,7 +3,8 @@ package com.randyriegsecker.superphonic;
 /*
 Author: Randy Riegsecker
 Date: 2022/12/17
-SuperPhonic is a fun soundboard for 12 year olds and immature adults.
+SuperPhonic is a fun soundboard for both kids and immature adults.
+The app demonstrates a simple view with buttons and playing audio files.
  */
 
 import android.media.AudioAttributes;

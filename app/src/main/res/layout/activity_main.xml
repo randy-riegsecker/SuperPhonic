@@ -29,8 +29,8 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="#206296"
         android:text="@string/law_and_order_text"
-        android:textSize="14sp"
         android:textColor="#E0E0E0"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/sadTrombone"
@@ -55,8 +55,8 @@
         android:layout_marginTop="8dp"
         android:backgroundTint="#7B431A"
         android:text="@string/fart_text"
-        android:textSize="14sp"
         android:textColor="#CFD8DC"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/haha"
@@ -121,8 +121,8 @@
         android:layout_marginTop="8dp"
         android:backgroundTint="#9B1329"
         android:text="@string/doorbell_text"
-        android:textSize="14sp"
         android:textColor="#E0E0E0"
+        android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/whistle"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -145,6 +145,6 @@
         android:id="@+id/barrier"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:barrierDirection="left"/>
+        app:barrierDirection="left" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
