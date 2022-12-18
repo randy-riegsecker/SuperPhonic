@@ -10,4 +10,6 @@
     <string name="whistle_text">Whistle</string>
     <string name="doorbell_text">Doorbell</string>
     <string name="car_horn_text">Car Horn</string>
+    <string name="cow_moo_text">Mooing Cow</string>
+    <string name="foghorn_text">Foghorn</string>"
 </resources>

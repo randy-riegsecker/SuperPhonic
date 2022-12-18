@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
     private int trump_firedId;
     private int sad_tromboneId;
     private int whistleId;
+    private int cow_mooId;
+    private int foghornId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +72,8 @@ public class MainActivity extends AppCompatActivity {
         trump_firedId = mSoundPool.load(getApplicationContext(), R.raw.trump_fired, 1);
         sad_tromboneId = mSoundPool.load(getApplicationContext(), R.raw.sad_trombone, 1);
         whistleId = mSoundPool.load(getApplicationContext(), R.raw.whistle, 1);
+        cow_mooId = mSoundPool.load(getApplicationContext(), R.raw.cow_moo, 1);
+        foghornId = mSoundPool.load(getApplicationContext(), R.raw.foghorn, 1);
 
         // Create Buttons
         final Button playSadTrombone = this.findViewById(R.id.sadTrombone);
@@ -86,6 +90,9 @@ public class MainActivity extends AppCompatActivity {
 
         final Button playDoorbell = this.findViewById(R.id.doorbell);
         final Button playCarHorn = this.findViewById(R.id.carHorn);
+
+        final Button playCowMoo = this.findViewById(R.id.cowMoo);
+        final Button playFoghorn = this.findViewById(R.id.foghorn);
 
         // Play Audio on Button Click
         playSadTrombone.setOnClickListener(new View.OnClickListener() {
@@ -159,6 +166,20 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mSoundPool.play(car_hornId, LEFT_VOLUME, RIGHT_VOLUME, PRIORITY, NO_LOOP, NORMAL_PLAY_RATE);
+            }
+        });
+
+        playCowMoo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mSoundPool.play(cow_mooId, LEFT_VOLUME, RIGHT_VOLUME, PRIORITY, NO_LOOP, NORMAL_PLAY_RATE);
+            }
+        });
+
+        playFoghorn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mSoundPool.play(foghornId, LEFT_VOLUME, RIGHT_VOLUME, PRIORITY, NO_LOOP, NORMAL_PLAY_RATE);
             }
         });
     }
