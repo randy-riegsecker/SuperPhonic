@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         cow_mooId = mSoundPool.load(getApplicationContext(), R.raw.cow_moo, 1);
         price_is_right_loseId = mSoundPool.load(getApplicationContext(), R.raw.price_is_right_lose,1);
 
-        // Create Buttons
+        // Link buttons to resource file
         final Button playSadTrombone = this.findViewById(R.id.sadTrombone);
         final Button playNelsonHaHa = this.findViewById(R.id.haha);
 
@@ -94,9 +94,10 @@ public class MainActivity extends AppCompatActivity {
         final Button playCowMoo = this.findViewById(R.id.cowMoo);
         final Button playFoghorn = this.findViewById(R.id.priceIsRightLose);
 
-        // Play Audio on Button Click
-        playSadTrombone.setOnClickListener(new View.OnClickListener() {
 
+        // Callbacks to play audio when button is clicked
+
+        playSadTrombone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //sadTromboneMP.start();
@@ -104,9 +105,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-// Callbacks to play sounds when button is clicked
         playNelsonHaHa.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View v) {
                 mSoundPool.play(nelson_ha_haId, LEFT_VOLUME, RIGHT_VOLUME, PRIORITY, NO_LOOP, NORMAL_PLAY_RATE);
