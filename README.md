@@ -1,6 +1,6 @@
 # SuperPhonic
 
-This is a fun soundboard enjoyed by children and immature adults all over the world!
+This is a fun soundboard enjoyed by children and adults all over the world!
 
 The code is written in Java and the application was developed using Android Studio.  It demonstrates the use of Button elements and the SoundPool class to play short mp3 sound files.
 
