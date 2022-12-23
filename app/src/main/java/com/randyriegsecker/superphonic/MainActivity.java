@@ -48,10 +48,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
        // Create a new SoundPool
+
         AudioAttributes audioAttributes = new AudioAttributes
                 .Builder()
                 .setUsage(
-                        AudioAttributes.USAGE_ASSISTANCE_SONIFICATION)
+                        AudioAttributes.USAGE_MEDIA)
                 .setContentType(
                         AudioAttributes.CONTENT_TYPE_SONIFICATION)
                 .build();
