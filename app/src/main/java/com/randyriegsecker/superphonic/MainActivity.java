@@ -101,7 +101,6 @@ public class MainActivity extends AppCompatActivity {
         playSadTrombone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //sadTromboneMP.start();
                 mSoundPool.play(sad_tromboneId, LEFT_VOLUME, RIGHT_VOLUME, PRIORITY, NO_LOOP, NORMAL_PLAY_RATE);
             }
         });
