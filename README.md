@@ -1,5 +1,5 @@
 # SuperPhonic
-SuperPhonic is a fun soundboard enjoyed by children and adults all over the world!  It plays 12 different sounds for use at a variety of social events and family functions.
+SuperPhonic is a fun soundboard enjoyed by children and adults all over the world!  It plays 12 different sounds for use at a variety of social events and family functions.  It is my first application written for Android!
 
 The code is written in Java and the application was developed using Android Studio.  It demonstrates the use of a single Activity with Buttons and the SoundPool class to play short mp3 sound files.
 
